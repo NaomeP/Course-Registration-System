@@ -13,6 +13,7 @@ public class DataLoader {
 
     @Bean
     CommandLineRunner loadCourses(CourseRepo courseRepo) {
+ System.out.println("DATA LOADER IS RUNNING");
 
         return args -> {
 
